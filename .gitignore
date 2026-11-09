@@ -1,0 +1,69 @@
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Build outputs
+build/
+android/app/build/
+ios/build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Android
+*.keystore
+*.jks
+android/.gradle/
+android/local.properties
+android/captures/
+
+# iOS
+ios/Pods/
+ios/DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Private credentials
+service-account*.json
+google-services*.json
+GoogleService-Info.plist
