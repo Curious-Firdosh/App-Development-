@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "FreshMart",
-    "slug": "freshmart",
+    "name": "ReactNavigation-hai",
+    "slug": "ReactNavigation",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "basic",
+    "scheme": "reactnavigation",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
@@ -20,7 +20,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "static",
+      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
